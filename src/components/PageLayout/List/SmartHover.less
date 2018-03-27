@@ -1,0 +1,24 @@
+.SmartHover {
+    //min-width: 400px;
+    background-color: white;
+    position: relative;
+    padding: 10px 0px 0px;
+    .ant-tabs-bar {
+        margin-bottom: 0px;
+    }
+    & > .floatBtn {
+        position: absolute;
+        background-color: #e15251;
+        right: 0px;
+        top: 0px;
+        display: none;
+        z-index: 99;
+    }
+}
+
+.SmartHover:hover {
+    border: 1px dashed #e15251;
+    & > .floatBtn {
+        display: initial;
+    }
+}

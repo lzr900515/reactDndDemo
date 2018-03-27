@@ -1,0 +1,7 @@
+@import './assets/style/yunfont.less';
+@import './assets/style/objfont.less';
+
+html, body, :global(#root) {
+  height: 100%;
+}
+
